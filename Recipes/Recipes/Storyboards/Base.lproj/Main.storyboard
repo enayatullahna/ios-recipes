@@ -130,8 +130,8 @@
                         <viewLayoutGuide key="safeArea" id="3M8-ro-umI"/>
                     </view>
                     <connections>
-                        <outlet property="detailTextField" destination="vYc-5L-8M2" id="otJ-tV-tEM"/>
-                        <outlet property="labelTitle" destination="oNZ-11-HcO" id="5SS-09-zc3"/>
+                        <outlet property="recipeDetailTextField" destination="vYc-5L-8M2" id="otJ-tV-tEM"/>
+                        <outlet property="recipeLabelTitle" destination="oNZ-11-HcO" id="5SS-09-zc3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dxe-B6-otP" userLabel="First Responder" sceneMemberID="firstResponder"/>
