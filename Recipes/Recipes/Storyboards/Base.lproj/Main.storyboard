@@ -103,14 +103,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="708"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNZ-11-HcO">
-                                <rect key="frame" x="8" y="22" width="398" height="27"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="oNZ-11-HcO">
+                                <rect key="frame" x="166.5" y="100" width="81.5" height="38.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vYc-5L-8M2">
-                                <rect key="frame" x="0.0" y="59" width="414" height="615"/>
+                                <rect key="frame" x="0.0" y="148.5" width="414" height="525.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -119,12 +119,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="oNZ-11-HcO" firstAttribute="leading" secondItem="3M8-ro-umI" secondAttribute="leading" constant="8" id="7PI-fa-Bw7"/>
-                            <constraint firstItem="3M8-ro-umI" firstAttribute="trailing" secondItem="oNZ-11-HcO" secondAttribute="trailing" constant="8" id="Jim-KM-xtc"/>
+                            <constraint firstItem="oNZ-11-HcO" firstAttribute="centerX" secondItem="tne-GA-SDj" secondAttribute="centerX" id="BD9-5J-wQ3"/>
                             <constraint firstItem="3M8-ro-umI" firstAttribute="bottom" secondItem="vYc-5L-8M2" secondAttribute="bottom" id="JxP-xP-iaE"/>
                             <constraint firstItem="vYc-5L-8M2" firstAttribute="top" secondItem="oNZ-11-HcO" secondAttribute="bottom" constant="10" id="MCI-as-21r"/>
                             <constraint firstItem="vYc-5L-8M2" firstAttribute="leading" secondItem="3M8-ro-umI" secondAttribute="leading" id="hnw-fO-VtN"/>
-                            <constraint firstItem="oNZ-11-HcO" firstAttribute="top" secondItem="tne-GA-SDj" secondAttribute="top" constant="22" id="p6f-MM-osI"/>
+                            <constraint firstItem="oNZ-11-HcO" firstAttribute="top" secondItem="tne-GA-SDj" secondAttribute="top" constant="100" id="p6f-MM-osI"/>
                             <constraint firstItem="3M8-ro-umI" firstAttribute="trailing" secondItem="vYc-5L-8M2" secondAttribute="trailing" id="uNd-FS-VFA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3M8-ro-umI"/>
